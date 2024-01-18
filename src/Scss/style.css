@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.Ana {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+.Sr, .Ec, .Ba, .Eco, .BA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 480px;
+  width: 450px;
+  border: 2px solid #333;
+  border-left: transparent;
+  border-bottom: transparent;
+  margin: 10px;
+}
+.Sr h2, .Ec h2, .Ba h2, .Eco h2, .BA h2 {
+  text-transform: uppercase;
+}
+.Sr h5, .Ec h5, .Ba h5, .Eco h5, .BA h5 {
+  font-size: 1.2em;
+  line-height: 20px;
+  text-align: center;
+}
+.Sr label, .Ec label, .Ba label, .Eco label, .BA label {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.Sr button, .Ec button, .Ba button, .Eco button, .BA button {
+  border: 2px solid #333;
+}
+
+@media screen and (max-width: 500px) {
+  .Ana {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+  }
+}
+.BA {
+  border-left: transparent;
+  margin-left: 10px;
+  border-bottom: transparent;
+}
+
+.Eco {
+  margin-left: 10px;
+  border-bottom: transparent;
+}
+
+.Ba {
+  border-left: transparent;
+  margin-left: 10px;
+  border-bottom: transparent;
+}
+
+.Ec {
+  border-left: transparent;
+  margin-left: 10px;
+  border-bottom: transparent;
+}/*# sourceMappingURL=style.css.map */
